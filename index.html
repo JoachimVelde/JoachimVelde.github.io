@@ -14,8 +14,11 @@
 
         body {
             min-height: 100vh;
-            background-color: #3333ff;
-            font-size: 50px;
+            background-image: url("bakgrunn.jpg");
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            font-size: 55px;
             display: flex;
             align-items: center;
         }
@@ -36,14 +39,16 @@
             display: block;
             width: 100%;
             color: white;
+            background-color: rgba(0, 0, 0, 0);
             text-align: center;
             padding: 50px 0px;
             text-decoration: none;
             transition: 200ms ease;
+            letter-spacing: 3px;
         }
 
         nav ul li a:hover, nav ul li a:focus {
-            background-color: #5757fd;
+            background-color: rgba(0, 0, 0, 0.3);
         }
 
     </style>
